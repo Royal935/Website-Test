@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "Website Test",
+			"path": "."
+		},
+		{
+			"name": "img",
+			"path": "../OneDrive/Desktop/img"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Website Test"
+	}
+}
