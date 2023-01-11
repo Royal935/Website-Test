@@ -6,10 +6,20 @@
   font-family: 'Sparten', sans-serif;
 }
 
-h1 {
+.center {
+  font-size: 70px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bottom {
   font-size: 50px;
-  line-height: 64px;
-  color: white;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 h2 {
@@ -26,12 +36,6 @@ h4 {
 h6 {
   font-weight: 700;
   font-size: 12px;
-}
-
-p {
-  font-size: 15px;
-  color: rgb(227, 220, 220);
-  margin: 15px 0 20px 0;
 }
 
 .section-p1 {
@@ -111,7 +115,7 @@ body {
 }
 /*Home Page*/
 #hero{
-  background-image: url(hero5.jpg);
+  background-image: url(new.png);
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
@@ -134,54 +138,54 @@ body {
 }
 
 #hero button{
-  background-color: transparent;
+  background-color: white;
   border: 0;
   padding: 14px 80px 14px 65px;
   cursor: pointer;
   font-weight: 700;
   font-size: 15;
   border-radius: 25px;
-  border: 2px solid green;
+  border: 3px solid black;
   text-align: center;
   display: inline-block;
   position: absolute;
-  top: 38%;
-  left: 10%;
-  color: white;
+  top: 70%;
+  left: 25%;
+  color: black;
 }
 
 #hero button2{
-  background-color: transparent;
+  background-color: white;
   border: 0;
   padding: 14px 80px 14px 65px;
   cursor: pointer;
   font-weight: 700;
-  font-size: 15;
+  font-size: 18;
   border-radius: 25px;
-  border: 2px solid green;
+  border: 3px solid black;
   text-align: center;
   display: inline-block;
   position: absolute;
-  top: 38%;
-  left: 40%;
-  color: white;
+  top: 65%;
+  left: 45%;
+  color: black;
 }
 
 #hero button3{
-  background-color: transparent;
+  background-color: white;
   border: 0;
   padding: 14px 80px 14px 65px;
   cursor: pointer;
   font-weight: 700;
   font-size: 15;
   border-radius: 25px;
-  border: 2px solid green;
+  border: 3px solid black;
   text-align: center;
   display: inline-block;
   position: absolute;
-  top: 38%;
-  left: 70%;
-  color: white;
+  top: 70%;
+  left: 65%;
+  color: black;
 
 }
 
